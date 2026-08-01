@@ -1,4 +1,16 @@
 aid: sentieo
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sentieo.png
 name: Sentieo
 description: Sentieo is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
   network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
@@ -11,9 +23,19 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+x-status: defunct-domain
+x-status-detail: 'sentieo.com does not resolve (DNS SERVFAIL; no A/NS/SOA records) as
+  of 2026-07-21. Sentieo was a financial research and analytics platform that was acquired
+  by AlphaSense; its standalone web surface is no longer live. No API, developer portal,
+  or public artifact surface could be probed. Verified: DNS lookup, HTTPS HEAD, and
+  domain-security probe all returned unreachable.'
 tags:
 - Company
+- Financial Research
+- Fintech
+- Analytics
+- Investment Research
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +45,8 @@ maintainers:
 common:
 - type: Website
   url: https://sentieo.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
